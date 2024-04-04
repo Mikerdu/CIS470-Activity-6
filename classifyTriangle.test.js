@@ -1,5 +1,5 @@
 
-const  classifyTriangle  = require('./classifyTriangle');
+const  {classifyTriangle}  = require('./classifyTriangle');
 
 describe('classifyTriangle: Required input conditions -  See readme for more details', () => {
     test('should classify an Equilateral triangle', () => {
